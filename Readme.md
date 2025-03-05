@@ -69,7 +69,7 @@ openssl req -new -newkey rsa:2048 -days 365 -nodes -x509 -keyout /etc/ssl/privat
 Navigate to the `electron-app` directory and install the dependencies:
 
 ```bash
-cd electron-app
+cd App
 npm install
 ```
 
