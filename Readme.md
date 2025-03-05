@@ -86,7 +86,7 @@ The Electron app will open a window showing the remote desktop from the Docker c
 In addition to the Electron app, you can also access the remote desktop via your web browser. To do so, open the browser and navigate to:
 
 ```text
-https://localhost:6080
+https://localhost:6080/vnc.html
 ```
 
 This will open the **noVNC** web interface, where you can securely interact with the remote desktop using the `wss://` protocol.
@@ -111,7 +111,7 @@ The Electron app is built using Web technologies (HTML, JavaScript, and CSS) and
 1. **Start the Docker container**: Ensure that the VNC server is running inside the Docker container with SSL/TLS enabled.
 2. **Run the Electron app**: Start the Electron app, and you should see the remote desktop interface in the app window.
 3. **Interact with the desktop**: You can interact with the desktop inside the Electron app just as you would with a local VNC client.
-4. **Access via localhost**: Open your browser and visit `https://localhost:6080` to access the remote desktop interface directly via noVNC.
+4. **Access via localhost**: Open your browser and visit `https://localhost:6080/vnc.html` to access the remote desktop interface directly via noVNC.
 
 ## **Troubleshooting** ⚠️
 
