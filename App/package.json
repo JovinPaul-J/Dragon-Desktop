@@ -1,0 +1,16 @@
+{
+  "name": "dragon-desktop",
+  "version": "1.0.0",
+  "description": "Electron app to securely view remote desktop via WebSocket",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "dependencies": {
+    "electron": "^24.0.0"
+  },
+  "devDependencies": {},
+  "license": "MIT",
+  "author": "Jovin Paul J",
+  "signature": "🐉 Dragon Desktop - Secure Remote Desktop Viewer 🖥️"
+}
